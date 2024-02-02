@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0em;
+    background: green;
+    justify-content: space-between;
+    align-items: center;
+    height: 78px;
+    z-index: 99;
+}
+.navigation a{
+    display: flexbox;
+    flex-wrap: wrap;
+    gap: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+.navigation a:hover{
+    background: black;
+    border-radius: 20px;
+    border-style: double;
+}
+.navigation a:active{
+    background-color: gold;
+}
+P{
+    display: block;
+    color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div{
+    color: white;
+}
+
+
+
+li{
+    color: white;
+    font-size: 30px;
+    display: flex;
+    padding: 20px;
+    cursor: pointer;
+}
+
+
+li:hover{
+    background: green;
+    border: 10px;
+    border-radius: 20px;
+    border-style: double;
+    border-color: gold;
+}
+li:hover:active{
+    background-color: white;
+    
+}
+
+body{
+    background: black;
+}
+.fa-house{
+    color: gold;
+    cursor: pointer;
+    padding: 30px;
+}
+.fa-music{
+    padding: 30px;
+    color: gold;
+    cursor: pointer;
+}
+.fa-magnifying-glass{
+    padding: 30px;
+    cursor: pointer;
+    color: gold;
+}
+.fa-envelope{
+    padding: 30px;
+    cursor: pointer;
+    color: gold;
+}
+span{
+    color: white;
+    font-size: 30px;
+}
+img:hover{
+    background: gray;
+}
+img:hover:active{
+    background-color: gold;
+
+}
